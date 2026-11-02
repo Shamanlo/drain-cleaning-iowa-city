@@ -2,15 +2,6 @@
 // Prices come from the 2026 cost video (https://youtu.be/IziRxlTAhOM): drain cleaning from $120,
 // basic drain snaking about $250. Change `pricing.start` / `pricing.snake` and the tier text together.
 
-const REVIEWS = {
-  nic: { name: "Nic H.", date: "August 2026", text: "I’ve had a recurring issue for years with my floor drain backing up. Andy at A1 Sewer Services was the first one to do a more thorough inspection rather than just clearing out the line. He also discovered a crack in my clean out which I had him repair to prevent worse issues down the road. I highly recommend A1 for sewer and drain issues." },
-  dennis: { name: "Dennis H.", date: "August 2026", text: "First time using A1 and I can’t say enough positive. Andy came within the hour that I called to unclog a basement floor drain. He was very thorough and checked to make sure the blockage was not coming from more than one area. He cleaned it out in a short time, got things moving and had good suggestions to help minimize future problems. Reasonable charges for good work and an honest pleasant person. Highly recommended." },
-  howard: { name: "Howard", date: "July 2026", text: "Our basement was flooded due to our sump pump being overwhelmed and the basement drain backing up as well after the heavy rains of June 17-18. We discovered it the afternoon of June 19. Andy worked us into his schedule for Sat. June 20. He was very quick, effcient, and effective at clearing the basement drain. My wife was impressed with his professionalism and customer courtesy. I highly recommend A1 Sewer." },
-  joshua: { name: "Joshua N.", date: "", text: "10 Stars if I could. Coming from someone who builds systems and processes for a 9 figure company, Andy does it all right and keeps it simple. Easy to find in search, stands out in reviews, easy to see why. Answered the phone 8am first try, flexible to when I needed, arrived within hours of first contact. Followups easy in text. Got pertinent info, walked the house, got to work, fixed it and another issue after quick run to store for parts. More than reasonable price. In my phone for next time if I ever need it! Thanks Andy!" },
-  noah: { name: "Noah H.", date: "March 2026", text: "Fantastic service! Called, told him the bottom of my water heater is leaking, sent him pics of everything and he was out the next day replacing it at a reasonable price! Highly recommend 👌 Thank you!" },
-  eugene: { name: "Eugene", date: "October 2025", text: "Andy did a great job. Removing a two bowl undermount sink from granite countertop, replacing the sink with a single bowl, new faucet and disposal. Not something everyone does. Andy was pn time, communicated well, very detail-oriented, and trustworthy. Estimate was on target as well. Highly recommend." },
-};
-
 export default {
   domain: "draincleaningiowacity.com",
   origin: "https://draincleaningiowacity.com",
@@ -20,7 +11,7 @@ export default {
   compareCity: "Iowa City",
   web3formsKey: "42264181-3add-41d6-b7d6-ca8e2e279ed3",
   topbar: "Drain &amp; sewer cleaning in Iowa City &middot; Open 24/7",
-  footerBlurb: "Drain Cleaning Pro's of Iowa City clears main lines, floor drains, sinks and tubs for homes, rentals and businesses across Iowa City and Johnson County. Jobs are completed by A1 Sewer Service, a locally owned crew on the south side of Iowa City.",
+  footerBlurb: "Drain Cleaning Pro's of Iowa City clears main lines, floor drains, sinks and tubs for homes, rentals and businesses across Iowa City and Johnson County. Our local crew works out of a shop on the south side of Iowa City.",
   footerArea: "Serving Iowa City, Coralville, North Liberty, Tiffin &amp; the Corridor",
   footerBottom: "Proudly serving Iowa City, from the Northside to Windsor Ridge.",
   formPlaceholder: "Example: Basement floor drain backs up every time the washer runs...",
@@ -35,15 +26,13 @@ export default {
     short: "Drain Cleaning Pro's",
     cityLine: "of Iowa City",
     years: "8+",
-    // The crew that completes the jobs. Reviews and photos on the site are theirs and are credited to them.
-    crew: { name: "A1 Sewer Service", rating: "5.0", reviewCount: "40+" },
   },
 
   images: {
     hero: { file: "hero-drain-cleaning.webp", alt: "Mini excavator digging along a buried drain line in a wooded backyard" },
     videoThumb: { file: "drain-cleaning-cost-video.webp", alt: "Drain Cleaning Cost in Iowa City (2026) video" },
-    truck: { file: "drain-cleaning-truck-iowa-city.webp", alt: "A1 Sewer Service truck with two drain cleaning machines unloaded on a driveway", caption: "Our truck and drain machines, set up and ready to clear a line" },
-    truckSide: { file: "a1-sewer-service-truck-iowa-city.webp", alt: "A1 Sewer Service work truck parked on an Iowa City street", caption: "A1 Sewer Service on a call in Iowa City" },
+    truck: { file: "drain-cleaning-truck-iowa-city.webp", alt: "Work truck with two drain cleaning machines unloaded on a driveway", caption: "Our truck and drain machines, set up and ready to clear a line" },
+    truckSide: { file: "drain-cleaning-work-truck-iowa-city.webp", alt: "Drain cleaning work truck parked on an Iowa City street", caption: "On a drain cleaning call in Iowa City" },
     floorDrain: { file: "floor-drain-snaking-iowa-city.webp", alt: "Technician running a drain cable into a backed-up basement floor drain in Iowa City", caption: "Snaking a backed-up basement floor drain in Iowa City" },
     roots: { file: "roots-removed-from-drain-iowa-city.webp", alt: "Mass of roots and debris pulled out of a basement drain line in Iowa City", caption: "Roots and debris pulled out of an Iowa City drain line" },
     sinkBefore: { file: "kitchen-sink-drain-before.webp", alt: "Old double-bowl kitchen sink before replacement", caption: "Before: worn double-bowl sink" },
@@ -54,9 +43,9 @@ export default {
     sumpPit: { file: "sump-pump-pit-iowa-city.webp", alt: "New sump pump pit and pump installed in an Iowa City basement", caption: "New sump pit and pump in an Iowa City basement" },
     sumpDig: { file: "basement-drain-work-iowa-city.webp", alt: "Basement floor opened up for a new sump pit in Iowa City", caption: "Basement floor opened for a new sump pit, Iowa City" },
     excavator: { file: "sewer-line-excavation.webp", alt: "Mini excavator digging along a buried drain line in a wooded backyard", caption: "Digging to a buried drain line" },
-    excavator2: { file: "drain-line-excavation.webp", alt: "A1 Sewer Service crew excavating a trench for a new drain line", caption: "Trenching for a new drain line" },
+    excavator2: { file: "drain-line-excavation.webp", alt: "Crew excavating a trench for a new drain line", caption: "Trenching for a new drain line" },
     downspout: { file: "downspout-drain-line-iowa-city.webp", alt: "Trench with a new buried downspout drain line at an Iowa City apartment building", caption: "Buried downspout line at an Iowa City apartment building" },
-    downspout2: { file: "buried-drain-line-iowa-city.webp", alt: "A1 Sewer Service technician connecting a new drain line at an Iowa City building foundation", caption: "Tying a new drain line in at the foundation, Iowa City" },
+    downspout2: { file: "buried-drain-line-iowa-city.webp", alt: "Technician connecting a new drain line at an Iowa City building foundation", caption: "Tying a new drain line in at the foundation, Iowa City" },
     trench: { file: "drain-line-trench-iowa-city.webp", alt: "Drain line trench running down a sloped Iowa City backyard", caption: "Drain line trench on a sloped Iowa City lot" },
     parkLine: { file: "drain-line-install-iowa-city.webp", alt: "New drain line laid in a trench across a shaded yard", caption: "New drain line laid in a trench" },
     swisher: { file: "exposed-sewer-pipe-swisher-ia.webp", alt: "Exposed sewer pipes in a trench in Swisher, Iowa", caption: "Exposed sewer pipes in Swisher, IA" },
@@ -126,7 +115,7 @@ export default {
       name: "Hydro Jetting",
       icon: "waves",
       img: "truck",
-      cardAlt: "Drain cleaning and jetting equipment unloaded next to the A1 Sewer Service truck",
+      cardAlt: "Drain cleaning and jetting equipment unloaded next to the work truck",
       short: "High-pressure water scours grease, scale and root hair off the pipe walls so the line stays open longer.",
       related: "Scour grease and root hair off pipe walls.",
       title: "Hydro Jetting Iowa City | Drain Cleaning Pro's of Iowa City",
@@ -230,7 +219,7 @@ export default {
       eyebrow: "About Drain Cleaning Pro's",
       h2: "Dedicated To Clearing Iowa City Drains Right The First Time, With Prices You Know Up Front",
       paras: [
-        "Drain Cleaning Pro's of Iowa City clears main sewer lines, kitchen sinks, basement floor drains and bathroom drains for homes, rentals and businesses all over town, from the Northside and Goosetown to Court Hill, Windsor Ridge and the Peninsula. The work is done by A1 Sewer Service, a locally owned crew run by owner Andy out of a shop on the south side of Iowa City.",
+        "Drain Cleaning Pro's of Iowa City clears main sewer lines, kitchen sinks, basement floor drains and bathroom drains for homes, rentals and businesses all over town, from the Northside and Goosetown to Court Hill, Windsor Ridge and the Peninsula. Our local crew works out of a shop on the south side of Iowa City.",
         "You get a straight answer about what's wrong and what it costs before any work starts. And when a line keeps clogging, we'd rather run a camera and show you why than charge you for the same visit three times.",
       ],
       points: ["Open 24 hours, 7 days a week", "Free, upfront estimates", "No after-hours fees until 8 p.m.", "Community discounts available"],
@@ -259,10 +248,8 @@ export default {
         { h3: "Test &amp; Prevent", p: "We run water to confirm full flow and tell you how to keep it from happening again." },
       ],
     },
-    galleryHead: { eyebrow: "Our Work", h2: "See Our Drain &amp; Sewer Work", p: "Real photos from recent jobs in Iowa City and around the Corridor, completed by our crew at A1 Sewer Service." },
+    galleryHead: { eyebrow: "Our Work", h2: "See Our Drain &amp; Sewer Work", p: "Real photos from recent jobs in Iowa City and around the Corridor." },
     gallery: ["truck", "roots", "sumpPit", "downspout", "excavator", "swisher"],
-    reviewsHead: { eyebrow: "Testimonials", h2: "Trusted By Iowa City Homeowners For Drain Cleaning" },
-    reviews: [REVIEWS.nic, REVIEWS.dennis, REVIEWS.howard, REVIEWS.joshua, REVIEWS.eugene, REVIEWS.noah],
     ba: {
       eyebrow: "Before / After",
       h2: "See The Difference A Drain Cleaning Can Make",
@@ -279,9 +266,9 @@ export default {
     eyebrow: "Who We Are",
     h2: "Your Local Iowa City Drain Cleaning Specialists",
     paras: [
-      "Drain Cleaning Pro's of Iowa City has one job: getting Iowa City drains flowing again, with the price settled before any work starts. Every job is handled by A1 Sewer Service, a locally owned crew run by Andy, a hands-on drain and sewer tech with more than eight years in the trade. The crew works out of a shop on the south side of Iowa City, which puts most Iowa City homes a short drive away, day or night.",
-      "The approach is simple: when sewage is coming up through your floor drain, you should be dealing with a real person who explains what's wrong, tells you the price before starting, and treats your home the way he'd want his own treated. Customers mention the same things in review after review. Andy shows up fast, he's thorough, and the price is fair.",
-      "Along with drain and sewer cleaning, the crew handles sump pumps, buried downspout lines, fixtures and water heaters for homeowners, landlords and businesses across Iowa City, Coralville, North Liberty, Tiffin and the rest of the Corridor.",
+      "Drain Cleaning Pro's of Iowa City has one job: getting Iowa City drains flowing again, with the price settled before any work starts. Our local, owner-operated crew has more than eight years in the drain and sewer trade and works out of a shop on the south side of Iowa City, which puts most Iowa City homes a short drive away, day or night.",
+      "The approach is simple: when sewage is coming up through your floor drain, you should be dealing with a real person who explains what's wrong, tells you the price before starting, and treats your home the way they'd want their own treated. Fast response, a thorough job and a fair price, every time.",
+      "Along with drain and sewer cleaning, our crew handles sump pumps, buried downspout lines, fixtures and water heaters for homeowners, landlords and businesses across Iowa City, Coralville, North Liberty, Tiffin and the rest of the Corridor.",
     ],
     points: ["Local, owner-operated crew", "8+ years clearing Eastern Iowa drains", "Open 24/7, weekends included", "Community discounts for teachers, seniors, military &amp; law enforcement"],
     img: "truck",
@@ -329,9 +316,9 @@ export default {
 
   gallery: {
     title: "Drain & Sewer Work Gallery Iowa City | Drain Cleaning Pro's of Iowa City",
-    description: "Photos of real drain cleaning, sewer line, sump pump and drain line jobs in Iowa City and the Corridor, completed by our crew at A1 Sewer Service.",
+    description: "Photos of real drain cleaning, sewer line, sump pump and drain line jobs completed by our crew in Iowa City and the Corridor.",
     h1: "Our Iowa City Drain &amp; Sewer Gallery",
-    head: { eyebrow: "Recent Jobs", h2: "See Our Drain &amp; Sewer Work", p: "Real photos from real jobs by our crew at A1 Sewer Service. No stock photos." },
+    head: { eyebrow: "Recent Jobs", h2: "See Our Drain &amp; Sewer Work", p: "Real photos from real jobs by our crew. No stock photos." },
     items: ["truck", "floorDrain", "roots", "sumpPit", "excavator", "sumpDig", "downspout", "downspout2", "trench", "excavator2", "swisher", "disposal", "sinkWide", "dischargeLine", "parkLine"],
     ba: {
       eyebrow: "Before / After",
@@ -432,7 +419,5 @@ export default {
       "We're open 24 hours a day, 7 days a week, and there are no after-hours fees until 8 p.m., weekends included.",
     ],
     formP: "Fill this out and we'll get back to you fast.",
-    reviewsH2: "What Iowa City Customers Say",
-    reviews: [REVIEWS.dennis, REVIEWS.nic, REVIEWS.joshua],
   },
 };
