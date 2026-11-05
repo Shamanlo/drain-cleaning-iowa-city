@@ -34,8 +34,7 @@ export default {
   images: {
     hero: { file: "hero-drain-cleaning.webp", alt: "Mini excavator digging along a buried drain line in a wooded backyard" },
     videoThumb: { file: "drain-cleaning-cost-video.webp", alt: "Drain Cleaning Cost in Iowa City (2026) video" },
-    truck: { file: "drain-cleaning-truck-iowa-city.webp", alt: "Work truck with two drain cleaning machines unloaded on a driveway", caption: "Our truck and drain machines, set up and ready to clear a line" },
-    truckSide: { file: "drain-cleaning-work-truck-iowa-city.webp", alt: "Drain cleaning work truck parked on an Iowa City street", caption: "On a drain cleaning call in Iowa City" },
+    truck: { file: "drain-cleaning-truck-iowa-city.webp", alt: "Drain cleaning machine and hose reel unloaded at the back of a work truck", caption: "Drain machines unloaded and ready to clear a line" },
     floorDrain: { file: "floor-drain-snaking-iowa-city.webp", alt: "Technician running a drain cable into a backed-up basement floor drain in Iowa City", caption: "Snaking a backed-up basement floor drain in Iowa City" },
     roots: { file: "roots-removed-from-drain-iowa-city.webp", alt: "Mass of roots and debris pulled out of a basement drain line in Iowa City", caption: "Roots and debris pulled out of an Iowa City drain line" },
     sinkBefore: { file: "kitchen-sink-drain-before.webp", alt: "Old double-bowl kitchen sink before replacement", caption: "Before: worn double-bowl sink" },
@@ -48,8 +47,6 @@ export default {
     excavator: { file: "sewer-line-excavation.webp", alt: "Mini excavator digging along a buried drain line in a wooded backyard", caption: "Digging to a buried drain line" },
     excavator2: { file: "drain-line-excavation.webp", alt: "Crew excavating a trench for a new drain line", caption: "Trenching for a new drain line" },
     downspout: { file: "downspout-drain-line-iowa-city.webp", alt: "Trench with a new buried downspout drain line at an Iowa City apartment building", caption: "Buried downspout line at an Iowa City apartment building" },
-    downspout2: { file: "buried-drain-line-iowa-city.webp", alt: "Technician connecting a new drain line at an Iowa City building foundation", caption: "Tying a new drain line in at the foundation, Iowa City" },
-    trench: { file: "drain-line-trench-iowa-city.webp", alt: "Drain line trench running down a sloped Iowa City backyard", caption: "Drain line trench on a sloped Iowa City lot" },
     parkLine: { file: "drain-line-install-iowa-city.webp", alt: "New drain line laid in a trench across a shaded yard", caption: "New drain line laid in a trench" },
     swisher: { file: "exposed-sewer-pipe-swisher-ia.webp", alt: "Exposed sewer pipes in a trench in Swisher, Iowa", caption: "Exposed sewer pipes in Swisher, IA" },
     dischargeLine: { file: "sump-discharge-line-install.webp", alt: "Sump pump discharge line being buried across a front lawn", caption: "Burying a sump pump discharge line" },
@@ -226,7 +223,7 @@ export default {
         "You get a straight answer about what's wrong and what it costs before any work starts. And when a line keeps clogging, we'd rather run a camera and show you why than charge you for the same visit three times.",
       ],
       points: ["Open 24 hours, 7 days a week", "Free, upfront estimates", "No after-hours fees until 8 p.m.", "Community discounts available"],
-      img: "truckSide",
+      img: "truck",
     },
     featuredServices: ["floor-drain-cleaning", "main-sewer-line-cleaning", "hydro-jetting", "kitchen-bathroom-drains"],
     servicesHead: { eyebrow: "Our Services", h2: "Our Drain Cleaning Services in Iowa City", p: "From a slow bathroom sink to a main sewer line full of roots, we clear the clog and tell you what caused it." },
@@ -237,7 +234,7 @@ export default {
         { icon: "clock", h3: "Open 24/7, No Late Fees Before 8 p.m.", p: "Backups don't wait for business hours. We're open around the clock, with no after-hours fees until 8 p.m., weekends included." },
         { icon: "search", h3: "We Fix the Cause, Not Just the Clog", p: "If a line keeps backing up, we look for the reason, whether that's roots, a cracked cleanout or a grease-coated pipe." },
       ],
-      img: "downspout2",
+      img: "sumpPit",
       float: { b: "$0", span: "After-hours fees before 8 p.m." },
     },
     process: {
@@ -303,7 +300,7 @@ export default {
     description: "Drain cleaning services in Iowa City: main sewer lines, hydro jetting, camera inspections, floor drains, sinks, tubs and toilets. Open 24/7, free estimates.",
     h1: "Drain Cleaning Services in Iowa City",
     head: { eyebrow: "What We Do", h2: "Full-Service Drain &amp; Sewer Cleaning for Iowa City Homes", p: "Whatever is backing up, we clear it, tell you what caused it, and give you the price before we start." },
-    extra: { name: "24/7 Emergency Drain Cleaning", icon: "siren", img: "truckSide", short: "Sewage coming up through the floor drain in the middle of the night? We're open 24/7, with no after-hours fees until 8 p.m." },
+    extra: { name: "24/7 Emergency Drain Cleaning", icon: "siren", img: "sumpDig", short: "Sewage coming up through the floor drain in the middle of the night? We're open 24/7, with no after-hours fees until 8 p.m." },
     process: {
       eyebrow: "Our Process",
       h2: "A Simple, Stress-Free Service Call",
@@ -322,7 +319,7 @@ export default {
     description: "Photos of real drain cleaning, sewer line, sump pump and drain line jobs completed by our crew in Iowa City and the Corridor.",
     h1: "Our Iowa City Drain &amp; Sewer Gallery",
     head: { eyebrow: "Recent Jobs", h2: "See Our Drain &amp; Sewer Work", p: "Real photos from real jobs by our crew. No stock photos." },
-    items: ["truck", "floorDrain", "roots", "sumpPit", "excavator", "sumpDig", "downspout", "downspout2", "trench", "excavator2", "swisher", "disposal", "sinkWide", "dischargeLine", "parkLine"],
+    items: ["truck", "floorDrain", "roots", "sumpPit", "excavator", "sumpDig", "downspout", "excavator2", "swisher", "disposal", "sinkWide", "dischargeLine", "parkLine"],
     ba: {
       eyebrow: "Before / After",
       h2: "See The Difference A Drain Cleaning Makes",
@@ -370,7 +367,7 @@ export default {
         "A floor drain doesn't wait for Monday morning. We're open 24 hours a day, and there are <b>no after-hours fees until 8 p.m.</b>, weekends included. A Saturday afternoon backup costs the same as a Tuesday morning one.",
         "Calls after 8 p.m. may carry an after-hours rate. You'll hear what it is before anyone heads your way.",
       ],
-      img: "truckSide",
+      img: "excavator2",
     },
     factors: {
       eyebrow: "Cost Factors",
