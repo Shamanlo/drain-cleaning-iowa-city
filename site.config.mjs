@@ -105,10 +105,9 @@ export default {
       offer: ["Main line cleaning through an existing cleanout", "Root cutting for clay and cast iron sewer laterals", "Clearing grease, wipes and paper blockages", "Flow test before we leave", "Camera inspection when a line keeps clogging", "Free, upfront estimate before any work starts"],
       signsTitle: "Signs Your Main Line Is Clogged",
       signs: ["Water backs up into the basement floor drain", "Toilets gurgle when other fixtures drain", "Several drains are slow at the same time", "Sewer smell near the floor drain or cleanout", "Water comes up in the tub when the toilet flushes"],
-      btn: "Get A Main Line Quote",
       priceTitle: "Main Line Pricing",
       priceNote: "Drain cleaning in Iowa City starts at $120 and basic snaking runs about $250. Main lines are quoted free and up front, before we start.",
-      cta: { h2: "Get Your Iowa City Sewer Line Flowing", p: "Open 24/7, with no after-hours fees until 8 p.m., weekends included.", btn: "Request Service" },
+      cta: { h2: "Get Your Iowa City Sewer Line Flowing", p: "Open 24/7, with no after-hours fees until 8 p.m., weekends included." },
     },
     {
       slug: "hydro-jetting",
@@ -129,10 +128,9 @@ export default {
       offer: ["Jetting for kitchen lines and main sewer lines", "Grease, soap scum, sand and silt removal", "Root hair cleanup after root cutting", "Scheduled jetting for restaurants and rentals", "Camera check before and after on request", "Price quoted before the jetter comes off the truck"],
       signsTitle: "When Jetting Makes Sense",
       signs: ["The same line has been cabled two or three times this year", "Your kitchen sink slows down again weeks after a cleaning", "A camera shows a heavy grease coat on the pipe walls", "A commercial kitchen line between grease trap pump-outs", "Roots were cut and the fine roots need flushing out"],
-      btn: "Get A Jetting Quote",
       priceTitle: "Jetting Pricing",
       priceNote: "Hydro jetting depends on line length and access, so we quote it free and up front. Standard drain cleaning starts at $120.",
-      cta: { h2: "Stop Paying to Clear the Same Clog", p: "Ask whether your Iowa City line is a good candidate for hydro jetting.", btn: "Ask About Jetting" },
+      cta: { h2: "Stop Paying to Clear the Same Clog", p: "Ask whether your Iowa City line is a good candidate for hydro jetting." },
     },
     {
       slug: "sewer-camera-inspection",
@@ -152,10 +150,9 @@ export default {
       offer: ["Live camera inspection through the cleanout", "Root, crack, sag and offset-joint identification", "Locating and marking problem spots and depth", "Pre-purchase sewer scopes for home buyers", "Before-and-after checks for cleaning or jetting", "Plain-English walkthrough of what we found"],
       signsTitle: "When a Camera Inspection Pays Off",
       signs: ["The same drain has backed up more than once this year", "You're buying an older home and want to know the sewer's condition", "Someone has told you the line needs to be dug up", "You want proof a line is clean after jetting", "Roots keep coming back after cleaning"],
-      btn: "Book A Camera Inspection",
       priceTitle: "Camera Inspection Pricing",
       priceNote: "Camera inspections are quoted free and up front. If we're already clearing your line, ask about adding one on the same visit.",
-      cta: { h2: "Know What's Wrong Before You Dig", p: "Book a sewer camera inspection anywhere in Iowa City.", btn: "Book An Inspection" },
+      cta: { h2: "Know What's Wrong Before You Dig", p: "Book a sewer camera inspection anywhere in Iowa City." },
     },
     {
       slug: "floor-drain-cleaning",
@@ -175,10 +172,9 @@ export default {
       offer: ["Floor drain and laundry drain clearing", "Checks for blockages in more than one line", "Cleanout inspection and repair", "Sump pump and discharge line installs", "Buried downspout lines to move water away from the foundation", "Same-day and after-hours service"],
       signsTitle: "Signs Your Floor Drain Needs Attention",
       signs: ["Water around the floor drain after the washer runs", "Backups during or right after heavy rain", "Gurgling from the floor drain when toilets flush", "A sewer smell in the basement", "Standing water that drains away slowly"],
-      btn: "Get Your Floor Drain Cleared",
       priceTitle: "Floor Drain Pricing",
       priceNote: "Drain cleaning in Iowa City starts at $120 and basic snaking runs about $250. You'll know your price before we start.",
-      cta: { h2: "Floor Drain Backing Up Right Now?", p: "We're open 24/7. Send a request and we'll get right back to you.", btn: "Request Service Now" },
+      cta: { h2: "Floor Drain Backing Up Right Now?", p: "We're open 24/7. Call now and talk to a drain pro right away." },
     },
     {
       slug: "kitchen-bathroom-drains",
@@ -198,10 +194,9 @@ export default {
       offer: ["Kitchen sink and garbage disposal line cleaning", "Tub, shower and bathroom sink drains", "Toilet clogs cleared with a toilet auger", "Laundry and utility sink drains", "Disposal, faucet and fixture repair or replacement", "Service for landlords and property managers"],
       signsTitle: "Signs a Drain Needs More Than a Plunger",
       signs: ["The sink is slow again days after you plunged it", "Water backs up into the other side of a double sink", "The tub fills while you shower", "Gurgling when the dishwasher or washer drains", "Bad smells from the sink or shower drain"],
-      btn: "Get A Drain Cleared",
       priceTitle: "Sink & Tub Pricing",
       priceNote: "Drain cleaning in Iowa City starts at $120. Basic snaking runs about $250, and you'll get your price before work starts.",
-      cta: { h2: "Get Your Iowa City Drains Flowing Again", p: "Free estimates, and no after-hours fees until 8 p.m.", btn: "Get My Free Estimate" },
+      cta: { h2: "Get Your Iowa City Drains Flowing Again", p: "Free estimates, and no after-hours fees until 8 p.m." },
     },
   ],
 
@@ -214,7 +209,6 @@ export default {
     lead: "Clogged sinks, backed-up floor drains and slow main sewer lines, cleared fast by a locally owned Iowa City crew. Open 24/7, with upfront prices and no after-hours fees until 8 p.m.",
     trust: { strong: "Local Iowa City Crew", span: "Based on the south side of Iowa City" },
     stats: [["8+", "Years Experience"], ["$120", "Drain Cleaning From"], ["24/7", "Open Every Day"]],
-    formHead: { h2: "Get Your Free Quote", p: "Tell us what's going on and we'll get back to you fast with an upfront price." },
     about: {
       eyebrow: "About Drain Cleaning Pro's",
       h2: "Dedicated To Clearing Iowa City Drains Right The First Time, With Prices You Know Up Front",
@@ -242,7 +236,7 @@ export default {
       h2: "Our Simple Drain Cleaning Process",
       p: "Four steps from your first message to a drain that runs at full flow.",
       steps: [
-        { h3: "Tell Us What's Happening", p: "Send a quick request online. Let us know which drains are slow and when it started." },
+        { h3: "Call Us", p: "Call any time, day or night. Tell us which drains are slow and when it started." },
         { h3: "Get an Upfront Price", p: "We look at the problem and give you the price before any work begins." },
         { h3: "Clear the Line", p: "We open the drain at the right access point and clear it back to the main." },
         { h3: "Test &amp; Prevent", p: "We run water to confirm full flow and tell you how to keep it from happening again." },
@@ -256,7 +250,7 @@ export default {
       before: { img: "floorDrain", tag: "Before", cap: "A backed-up basement floor drain in Iowa City, opened up for the cable." },
       after: { img: "roots", tag: "After", cap: "What came out of the line: a mass of roots and debris that had been choking the drain." },
     },
-    cta: { h2: "Ready To Get Your Iowa City Drains Flowing Again?", p: "Get a free, upfront estimate. Open 24/7, with no after-hours fees until 8 p.m.", btn: "Get My Free Estimate" },
+    cta: { h2: "Ready To Get Your Iowa City Drains Flowing Again?", p: "Get a free, upfront estimate. Open 24/7, with no after-hours fees until 8 p.m." },
   },
 
   about: {
@@ -286,13 +280,13 @@ export default {
       eyebrow: "How It Works",
       h2: "How We Clear Your Drains",
       steps: [
-        { h3: "Send a Request", p: "Use the form any time, day or night. Tell us which drains are acting up." },
+        { h3: "Give Us a Call", p: "Call any time, day or night, and tell us which drains are acting up." },
         { h3: "Diagnose &amp; Quote", p: "We find where the blockage is and give you a price before starting." },
         { h3: "Clear &amp; Clean Up", p: "We clear the line with the right equipment and leave your basement or bathroom clean." },
         { h3: "Test &amp; Advise", p: "We confirm full flow and explain what caused it and how to prevent it." },
       ],
     },
-    cta: { h2: "Let's Get Your Iowa City Drains Flowing Again", p: "Send a request any time. We're open 24/7.", btn: "Get My Free Estimate" },
+    cta: { h2: "Let's Get Your Iowa City Drains Flowing Again", p: "Call any time. We're open 24/7, weekends included." },
   },
 
   servicesPage: {
@@ -305,13 +299,13 @@ export default {
       eyebrow: "Our Process",
       h2: "A Simple, Stress-Free Service Call",
       steps: [
-        { h3: "Request Service", p: "Send the form with what's happening. Photos help if you have them." },
+        { h3: "Call Us", p: "Tell us what's happening. Rather write? Send a request with photos below." },
         { h3: "Upfront Price", p: "We confirm what the job needs and quote it before we start." },
         { h3: "Clear the Drain", p: "Cable, jetter or camera: we bring the right tool for your line." },
         { h3: "Final Check", p: "We run water to prove full flow and walk you through what we found." },
       ],
     },
-    cta: { h2: "Not Sure What's Causing The Clog?", p: "Describe what you're seeing and we'll tell you what it likely needs, with a free upfront price.", btn: "Ask Us" },
+    cta: { h2: "Not Sure What's Causing The Clog?", p: "Call and describe what you're seeing. We'll tell you what it likely needs, with a free upfront price." },
   },
 
   gallery: {
@@ -330,7 +324,7 @@ export default {
       before: { img: "sinkBefore", tag: "Before", cap: "A worn double-bowl kitchen sink with a slow drain." },
       after: { img: "sinkAfter", tag: "After", cap: "New single-bowl undermount sink, faucet and disposal." },
     },
-    cta: { h2: "Imagine Your Drains Flowing Freely Again", p: "Get a free, upfront estimate for your Iowa City home.", btn: "Get My Free Estimate" },
+    cta: { h2: "Imagine Your Drains Flowing Freely Again", p: "Get a free, upfront estimate for your Iowa City home." },
   },
 
   pricingPage: {
@@ -354,7 +348,7 @@ export default {
       h2: "Watch: What a Plumber Charges to Snake a Drain in Iowa City",
       paras: [
         "This short video breaks down what drain cleaning costs in Iowa City in 2026: drain cleaning starting at $120, with a basic drain snaking at about $250.",
-        "Use it to sanity-check any quote you get. Then send us a request and we'll confirm your exact price before we start.",
+        "Use it to sanity-check any quote you get. Then call us and we'll confirm your exact price before we start.",
       ],
     },
     tiersHead: { eyebrow: "Our Pricing", h2: "What Drain Cleaning Costs in Iowa City", p: "Every drain is different, but most Iowa City calls fall into one of these three. Your price is confirmed before we start." },
@@ -406,18 +400,18 @@ export default {
       { q: "Do you offer any discounts?", a: "Yes. We offer community discounts for teachers, seniors, and military and law enforcement. Mention it when you request service." },
       { q: "When is a sewer camera inspection worth paying for?", a: "If the same drain has backed up two or three times in a year, or you're buying an older Iowa City home, a camera inspection shows what's actually in the line, such as roots, a crack or a sag, so you only pay to fix what's really wrong." },
     ],
-    cta: { h2: "Get a Free Iowa City Drain Cleaning Quote", p: "Find out exactly what your drain will cost before we start, at no charge.", btn: "Get My Quote" },
+    cta: { h2: "Get a Free Iowa City Drain Cleaning Quote", p: "Find out exactly what your drain will cost before we start, at no charge." },
   },
 
   contact: {
     title: "Contact | Drain Cleaning Iowa City | Drain Cleaning Pro's of Iowa City",
     description: "Request a free, upfront drain cleaning estimate in Iowa City, IA from Drain Cleaning Pro's of Iowa City. Open 24/7 with no after-hours fees until 8 p.m.",
     h1: "Contact Drain Cleaning Pro's of Iowa City",
-    h2: "Book Your Free Drain Cleaning Estimate in Iowa City",
+    h2: "Call Now for Drain Cleaning in Iowa City",
+    cta: { h2: "Drain Backing Up? Call Now", p: "Talk to a drain pro now, or send a request and we'll get back to you in minutes." },
     paras: [
-      "Tell us which drains are slow or backing up and when it started. We'll reach out with what it likely needs and an upfront price.",
+      "The fastest way to get help is to call. Tell us which drains are slow or backing up and when it started, and you'll hear what it likely needs and an upfront price.",
       "We're open 24 hours a day, 7 days a week, and there are no after-hours fees until 8 p.m., weekends included.",
     ],
-    formP: "Fill this out and we'll get back to you fast.",
   },
 };
