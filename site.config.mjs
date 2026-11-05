@@ -10,6 +10,9 @@ export default {
   state: "IA",
   compareCity: "Iowa City",
   web3formsKey: "42264181-3add-41d6-b7d6-ca8e2e279ed3",
+  // Call Now buttons dial this number. It's stored scrambled so the digits never appear in the repo or on the site.
+  // To change it: node scripts/encode-phone.mjs "(319) 555-0123" and paste the output here.
+  callCode: "XZFBG0BXT1EHDJ1T",
   topbar: "Drain &amp; sewer cleaning in Iowa City &middot; Open 24/7",
   footerBlurb: "Drain Cleaning Pro's of Iowa City clears main lines, floor drains, sinks and tubs for homes, rentals and businesses across Iowa City and Johnson County. Our local crew works out of a shop on the south side of Iowa City.",
   footerArea: "Serving Iowa City, Coralville, North Liberty, Tiffin &amp; the Corridor",
